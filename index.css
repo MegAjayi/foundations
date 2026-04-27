@@ -7,19 +7,26 @@ body{
     font-size: 1.6rem;
     line-height: 1.6;
     max-width: 100%;
-    background-color: #fcba03;
+    background-color: #fca103;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .container{
-    max-width: 30rem;
+    max-width: 70%;
     border: 1px solid black;
     border-radius: 4.6px;
-    box-shadow: 10px 0 10px 0 black,
-     0 10px 10px 0 black;
-    margin: 5rem  auto 5rem auto;
+   box-shadow: 8px 0 6px -4px rgba(0,0,0,2), 
+            0 8px 6px -4px rgba(0,0,0,2);
     background-color: white;
     padding: 1.4rem;
+     margin: 5rem  auto 5rem auto;
 }
 
+.bad-idea{
+    max-width: 35rem;
+      margin: 5rem  auto 5rem auto;
+}
 .hero-image{
     width: 100%;
     height: 15rem;
@@ -28,9 +35,9 @@ body{
     background-size: cover;
 }
 button{
-    height: 2.6rem;
-    width: 7.3rem;
-    background-color: #fcba03;
+    height: 1.6rem;
+    width: 6.3rem;
+    background-color: #fc9803;
     font-weight: 800;
     border: none;
     border-radius: 4.6px;
@@ -38,23 +45,23 @@ button{
 }
 
 .Published{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 h1{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight:bolder;
 }
 .text-p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 100;
     line-height: 1.2;
 
 }
 .profile-div{
     display: flex;
-    width: 8rem;
+    width: 10rem;
     justify-content: space-between;
     margin-top: 1rem;
 }
